@@ -20,12 +20,52 @@ font-size: 120%;
     margin: 1em;
 }
 
-h1.temp {
-    margin: 0;
-}
-
 .search{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 46px;
+    width: 46px;
+    outline: none;
+    background: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.5em 1em;
+    border-radius: 18px;
+    background: black;
+    color: white;
+    font-family: inherit;
+    font-size: 80%;
+}
+
+button:hover {
+    background: silver;
+}
+
+
+
+h1.temp {
+    margin: 0;
+    margin-bottom: 0.5em;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    text-transform: capitalize;
+    margin-left: 10px;
 }
